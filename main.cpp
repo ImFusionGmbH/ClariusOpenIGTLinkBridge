@@ -140,7 +140,7 @@ int main(int argc, char *argv[]) {
             std::cout << "Clarius Cast connection OK" << std::endl;
         else
             std::cerr << "Clarius Cast version mismatch, ClariusOpenIGTLinkBridge was build with " << CLARIUS_CAST_VERSION
-                      << ". Please follow the instructions at TODO to update the Cast version.";
+                      << ". Please follow the instructions at https://github.com/ImFusionGmbH/ClariusOpenIGTLinkBridge#updating-cast-api-version to update the Cast version.";
     }) >= 0;
     if (!ok)
         std::cout << "ERROR in cusCastConnect";
