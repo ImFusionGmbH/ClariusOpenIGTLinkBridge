@@ -23,7 +23,7 @@ void IGTServer(SafeQueue<igtl::ImageMessage::Pointer> &queue, int port) {
             std::cerr << "Cannot create a server socket. Trying next port..." << std::endl;
             port++;
         } else {
-            std::cout << "Create server on port: " << port << std::endl;
+            std::cout << "Created IGTLink server on port: " << port << std::endl;
             break;
         }
     }
